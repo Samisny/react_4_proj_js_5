@@ -1,0 +1,130 @@
+/* 
+.side-container {
+    position:relative;
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    width: auto;
+    height: auto;
+}
+
+.current-image {
+    position: inherit;
+    display: flex;
+    justify-content: center;
+    border-radius: 0.5rem;
+    box-shadow: 0px 0px 7px #666;
+    width: 600px;
+    height: 450px;
+    margin: 200px 30px;
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+.arrow {
+    position: absolute;
+    width: 2rem;
+    height: 2rem;
+    color: #fff;
+    filter: drop-shadow(0px 0px 5px #555);
+}
+
+.arrow-left {
+    right: 1rem;
+}
+
+.arrow-right {
+    right: 1rem;
+}
+
+.circle-indicators {
+    display: flex;
+    position:absolute;
+    bottom: 1rem;
+  }
+
+  .current-indicator {
+    background-color: #7f0808;
+    height: 15px;
+    width: 15px;
+    border-radius: 50%;
+    border: none;
+    outline: none;
+    margin: 0 0.2rem;
+    cursor: pointer;
+  }
+  
+.hide-current-image {
+    display: none;
+}
+
+.inactive-indicator {
+    background-color: gray;
+}
+ */
+
+
+ .side-container {
+    position:absolute;
+    display:contents;
+    justify-content: center;
+    align-items: center;
+    width: 600px;
+    height: 450px;
+  }
+  
+  .current-image {
+    justify-content: space-between;
+    border-radius: 0.5rem;
+    box-shadow: 0px 0px 17px #666;
+    width: 50%;
+    height: 50%;
+    margin: 5px 5px;
+  }
+  
+  .arrow {
+    position:relative;
+    width: 2rem;
+    height: 2rem;
+    color: #fff;
+    filter: drop-shadow(0px 0px 5px #555);
+    padding: 11px;
+    margin-top: 5px;
+    margin-bottom: 230px;
+  }
+  
+  .arrow-left {
+    left: 1rem;
+  }
+  
+  .arrow-right {
+    right: 1rem;
+  }
+  
+  .circle-indicator {
+    display: flex;
+    justify-content:center;
+    /* position: absolute; */
+    bottom: 1rem;
+    padding: 5px;
+    margin: 5px 5px;
+  }
+  
+  .current-indicator {
+    background-color: red;
+    height: 15px;
+    width: 15px;
+    border-radius: 50%;
+    border: none;
+    outline: none;
+    margin: 0 0.2rem;
+    cursor: pointer;
+  }
+  
+  .hide-current-image{
+      display: none;
+  }
+  
+  .inactive-indicator{
+      background-color: gray;
+  }
